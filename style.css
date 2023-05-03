@@ -62,9 +62,14 @@ button:hover {
   padding: 5px;
 }
 #rond {
-  margin: 40px 0;
-  border-radius: 50%;
   background: linear-gradient(to top, #4a2dda, #311d98);
+  display: grid;
+  place-content: center;
+  margin: 2rem auto;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  line-height: 20px;
 }
 #score {
   font-size: 50px;
